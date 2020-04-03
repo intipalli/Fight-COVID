@@ -1,0 +1,135 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["hi","how are you","hii","hello","whats up","wassup","is any one there?","good day","hola"],
+            "responses":["Hello!","hi there","hello there","hi good to see you","hello how can i help you"],
+            "context":""
+        },
+        {
+            "tag":"bye",
+            "patterns":["good bye","bye","see you","nice chatting with you, bye","see you later","I am leaving","until next time","have a good day, bye"],
+            "responses":["ok bye","talk to you later","bye have a nice day","goodbye","bye hope your presence soon"],
+            "context":""
+        },
+        {
+            "tag":"thanks",
+            "patterns":["thank you","thanks","that was very helpful","this is awesome thanks","thank you for helping me","that's helpful"],
+            "responses":["pleasure is mine","any time","my pleasure","happly to help","no mention","welcome"],
+            "context":""
+        },
+        {
+            "tag":"no_answer",
+            "patterns":[],
+            "responses":["I am sorry I didn't get you","please give me more info","not sure I understand","sorry but I didnot understand"],
+            "context":""
+        },
+        {
+            "tag":"work",
+            "patterns":["what can you do","how are you helpful","how can you provide support","how can you help me","what is your work","how can you assist me"],
+            "responses":["I can provide details regarding CoronaVirus, its origin --symptoms --causes --deaths reported --safety measures." ],
+            "context":""
+        },
+        {
+            "tag":"CoronaVirus",
+            "patterns":["what is CoronaVirus","CoronaVirus?","tell me about CoronaVirus","describe about CoronaVirus","covid19","covid"],
+            "responses":["It is a family of large number of viruses that causes illness ranging from common cold to severe diseases such as Middle East Respiratory Syndrome and severe Acute Respiratory Syndrome"],
+            "context":""
+        },
+
+        {
+        	"tag":"Evolution",
+        	"patterns":["where did the first case of coronavirus reported?"," what is the cause of coronavirus","How coronavirus came into this world?","From where did corona came?","birth of corona virus"],
+        	"responses":["Coronavirus is emerged in the Wuhan city of China"],
+        	"context":""
+
+        },
+
+        {
+        	"tag":"Health",
+        	"patterns":["How dangerous is coronavirus?","how coronavirus affects human beings?","what is does to the body?"],
+        	"responses":["coronavirus cause respiratory tract infections and inflammation of lungs."],
+        	"context":""
+        },
+
+        {
+        	"tag":"symptoms",
+        	"patterns":["what are the symptoms of coronavirus?","symptoms?"],
+        	"responses":["cold - cough - body aches - illness - difficulty in breathing"],
+        	"context":""
+        },
+
+        {
+        	"tag":"positive cases-total world",
+        	"patterns":["How many positive cases reported totally in the world?","Total cases till now?","Number of positive Coronavirus cases predicted till now in the whole world?","corona cases in the world"],
+        	"responses":["Total number of positive coronavirus cases reported till now in the whole world are 10,39,166 "],
+        	"context":""
+        },
+
+        {
+        	"tag":"safety measures",
+        	"patterns":["what can I do to stay safe from coronavirus?","what are the preventive measures?","safety measures?","How to fight coronavirus?","How to stay safe from coronavirus?","Do's and don't","how to get prevented from corona?"],
+        	"responses":["regular washing of hands with soap atleast 15-20 times per day - use kerchief when you cough - use elbow to turn on or off the switches - avoid public gatherings - maintain 3-4 feet distance between people - use mask to cover your nose and mouth - drink more hot water - improve your immune system by following a healthy diet"],
+        	"context":""
+        },
+
+        {
+        	"tag":"people recovered - total world",
+        	"patterns":["how many people have recovered in the total world till now?","people recovered from coronavirus till now in the whole world?","The number of recovered cases in the world?"],
+        	"responses":["The total number of people recovered from COVID-19 in the total world are 2,19,019 "],
+        	"context":""
+        },
+
+        {
+        	"tag":"Death cases - total world",
+        	"patterns":["how many people died in the total world till now?","people died from coronavirus till now in the whole world?","The number of death cases in the world?"],
+        	"responses":["The total number of people died because of COVID-19 in the total world are 55,092 "],
+        	"context":""
+        },
+
+        {
+        	"tag":" positive cases in India",
+        	"patterns":["How many positive cases are reported in India till now?","Total positive cases in India?","Number of positive cases in India?","Total positive cases?"],
+        	"responses":["The number of cases reported in India till now are 2,547"],
+        	"context":""
+        },
+
+        {
+        	"tag":"Deaths in India",
+        	"patterns":["how many people have died in India because of coronavirus?","Number of death cases in India?","Total deaths in India due to coronavirus?"],
+        	"responses":[" 62 people have died in India because of coronavirus till now"],
+        	"context":""
+
+        },
+
+        {
+        	"tag":"recovered cases in India",
+        	"patterns":["How many people are cured?","Total number of people recovered from Coronavirus?","Recovered cases in India?"],
+        	"responses":["The total number of people recovered from coronavirus in India are: 163 "],
+        	"context":""
+        },
+
+        {
+        	"tag":"China",
+        	"patterns":["how many people died in China?","Death cases in China till now?","cured cases in China?","how many people are recovered in China from coronavirus?","what are the total number of positive cases reported in China?","How many people are affected with coronavirus till now in china?"],
+        	"responses":["Total positive cases 81,620 - Total deaths 3,322 - Total recovered cases - 76,571"],
+        	"context":""
+
+        },
+
+        {
+        	"tag":"Italy",
+        	"patterns":["how many people died in Italy?","Death cases in Italy till now?","cured cases in Italy?","how many people are recovered in Italy from coronavirus?","what are the total number of positive cases reported in Italy?","How many people are affected with coronavirus till now in Italy?"],
+        	"responses":["Total positive cases 76,571- Total deaths 13,915 - Total recovered cases - 18,278"],
+        	"context":""
+        },
+
+        {
+        	"tag":"United States",
+        	"patterns":["how many people died in USA?","Death cases in USA till now?","cured cases in USA?","how many people are recovered in USA from coronavirus?","what are the total number of positive cases reported in USA?","How many people are affected with coronavirus till now in USA?"],
+        	"responses":["Total positive cases 2,45,974 - Total deaths 6,126 - Total recovered cases - 10,411"],
+        	"context":""
+        }
+        
+    ]
+}
